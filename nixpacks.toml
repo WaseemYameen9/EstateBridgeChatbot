@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["python3", "gcc"]
+nixPkgs = ["python310", "pip"]
 
 [phases.install]
 cmds = [
