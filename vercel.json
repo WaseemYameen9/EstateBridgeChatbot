@@ -1,0 +1,16 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "EstateBridgeBot.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/chat",
+        "dest": "/EstateBridgeBot.py"
+      }
+    ]
+  }
+  
