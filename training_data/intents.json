@@ -1,0 +1,129 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["Hello", "Hi", "Hey", "Is anyone there?", "Good day"],
+        "responses": ["Hello! How can I assist you today?", "Hi there! What do you need help with?", "Hey! How can I help?"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+        "responses": ["Goodbye! Have a great day!", "See you soon!", "Take care!"]
+      },
+      {
+        "tag": "question",
+        "patterns": ["What is Estate Bridge?", "Tell me about Estate Bridge", "How does Estate Bridge work?", "What is this platform for?", "What features does Estate Bridge have?"],
+        "responses": [
+          "Estate Bridge is a real estate platform designed to simplify buying, selling, and renting properties by connecting property owners, buyers, and agents.",
+          "Estate Bridge is an agent-facilitated P2P system that allows users to list, browse, and rent properties while interacting with verified real estate agents.",
+          "Estate Bridge provides AI-powered tools for property search, virtual tours, shared renting, agent reviews, and smart property valuation."
+        ]
+      },
+      {
+        "tag": "list_property",
+        "patterns": ["How can I list my property?", "How do I add a property?", "I want to list a property"],
+        "responses": [
+          "To list a property, go to the 'List Property' section in your dashboard and fill in the required details.",
+          "You can list your property by providing details like address, price, and images in the 'List Property' section."
+        ]
+      },
+      {
+        "tag": "sell_property",
+        "patterns": ["How can I sell my property?", "I want to sell my house", "Where can I sell my property?"],
+        "responses": [
+          "To sell your property, list it under 'Property Listings' with details such as price, location, and description.",
+          "You can sell your house by listing it under the 'Sell Property' section and connecting with buyers."
+        ]
+      },
+      {
+        "tag": "browse_properties",
+        "patterns": ["Show me available properties", "How can I find a property?", "I want to browse properties"],
+        "responses": [
+          "You can browse properties by visiting the 'Browse Properties' section and applying filters like price and location.",
+          "Use the 'Search Properties' option to find properties that match your preferences."
+        ]
+      },
+      {
+        "tag": "rent_property",
+        "patterns": ["How can I rent a property?", "I need a house for rent", "Find me rental properties"],
+        "responses": [
+          "You can browse available rentals in the 'Rent Property' section and contact owners directly.",
+          "To find rental properties, use filters like location, budget, and number of rooms in the 'Rent Property' section."
+        ]
+      },
+      {
+        "tag": "contact_agent",
+        "patterns": ["How do I contact an agent?", "I need help from an agent", "Find me a real estate agent"],
+        "responses": [
+          "To contact an agent, go to the property details page and click 'Contact Agent'.",
+          "You can connect with agents by visiting the 'Find Agent' section in your dashboard."
+        ]
+      },
+      {
+        "tag": "rate_agent",
+        "patterns": ["How do I rate an agent?", "Can I leave a review for an agent?", "I want to give feedback on my agent"],
+        "responses": [
+          "To rate an agent, go to 'My Transactions', select the agent, and leave a rating.",
+          "You can review an agent by navigating to their profile and submitting your rating."
+        ]
+      },
+      {
+        "tag": "shared_renting",
+        "patterns": ["Are shared rentals available?", "Can I find roommates?", "I want to rent a shared property"],
+        "responses": [
+          "You can find shared rentals in the 'Shared Renting' section.",
+          "To find a shared property, check the 'Shared Rentals' listings for available rooms."
+        ]
+      },
+      {
+        "tag": "360_degree_view",
+        "patterns": ["Can I take a virtual tour?", "What is 360 tour?", "I want to see a 360-degree view of the house"],
+        "responses": [
+          "You can take a 360-degree view of properties by clicking '360° View' on the property details page.",
+          "For an immersive experience, select the '360° View' option on the property listing."
+        ]
+      },
+      {
+        "tag": "property_valuation",
+        "patterns": ["How much is my property worth?", "Can I check property value?", "Estimate my property's price"],
+        "responses": [
+          "Use the 'Property Valuation' tool in your dashboard to get an estimate of your property's worth.",
+          "Our AI valuation tool provides real-time price estimates based on market trends."
+        ]
+      },
+      {
+        "tag": "compare_properties",
+        "patterns": ["Can I compare properties?", "How do I compare houses?", "Show me property comparisons"],
+        "responses": [
+          "Use the 'Compare Properties' feature to compare prices, locations, and amenities.",
+          "To compare properties, add them to your comparison list and check the side-by-side analysis."
+        ]
+      },
+      {
+        "tag": "text_search",
+        "patterns": ["I need a 3-bedroom apartment in Lahore", "Find me a house in DHA for 50K rent"],
+        "responses": [
+          "Use the AI-powered text-based search to enter your requirements, and we’ll match properties for you.",
+          "Simply describe your property needs, and our system will apply smart filters to find relevant listings."
+        ]
+      },
+      {
+        "tag": "area_analytics",
+        "patterns": ["Can I see analytics for an area?", "Show me crime rates for a neighborhood"],
+        "responses": [
+          "Use 'Area Analytics' to check crime rates, amenities, and market trends in any location.",
+          "Our system provides insights on safety, schools, hospitals, and property demand for any area."
+        ]
+      },
+      {
+        "tag": "unknown",
+        "patterns": [],
+        "responses": [
+          "I'm sorry, I don't know about that.",
+          "I am not sure about that. Can you ask something else?",
+          "I don't have information on that topic right now."
+        ]
+      }
+    ]
+  }
+  
