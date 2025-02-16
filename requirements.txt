@@ -1,6 +1,0 @@
-fastapi
-uvicorn
-numpy
-nltk
-tensorflow
-pickle-mixin
